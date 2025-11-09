@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../PIA/styles.css">
+    <title>Insertar Producto</title>
+</head>
+<body>
+    <center>
+        <h1>Insertar Producto</h1>
+        <form action="insertar_datos.php" method="post">
+            <table border="1">
+                <tr>
+                    <td>ID_Producto</td>
+                    <td><input type="text" name="ID_Producto"></td>
+                </tr>
+                <tr>
+                    <td>Nombre_Producto</td>
+                    <td><input type="text" name="Nombre_Producto"></td>
+                </tr>
+                <tr>
+                    <td>Categoria</td>
+                    <td><input type="text" name="Categoria"></td>
+                </tr>
+                <tr>
+                    <td>Precio_Compra</td>
+                    <td><input type="text" name="Precio_Compra"></td>
+                </tr>
+                <tr>
+                    <td>Precio_Venta</td>
+                    <td><input type="text" name="Precio_Venta"></td>
+                </tr>
+                <tr>
+                    <td>Stock</td>
+                    <td><input type="text" name="Stock"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Grabar"></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
