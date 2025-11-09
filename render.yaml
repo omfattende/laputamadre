@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: php-app
+    env: docker
+    docker:
+      image: php:8.4-apache
+    
